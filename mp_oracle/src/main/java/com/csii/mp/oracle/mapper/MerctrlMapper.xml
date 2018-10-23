@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.csii.mp.oracle.mapper.MerctrlMapper">
+
+    <!-- 开启二级缓存 -->
+    <cache type="org.mybatis.caches.ehcache.LoggingEhcache"/>
+
+    <!-- 通用查询映射结果 -->
+    <resultMap id="BaseResultMap" type="com.csii.mp.oracle.beans.Merctrl">
+        <id column="MERNBR" property="mernbr" />
+        <result column="MERSTATUS" property="merstatus" />
+        <result column="MERBEGIN" property="merbegin" />
+        <result column="MEREND" property="merend" />
+        <result column="MEMO1" property="memo1" />
+        <result column="MEMO2" property="memo2" />
+        <result column="MEMO3" property="memo3" />
+        <result column="DATELASTMAINT" property="datelastmaint" />
+    </resultMap>
+
+    <!-- 通用查询结果列 -->
+    <sql id="Base_Column_List">
+        MERNBR, MERSTATUS, MERBEGIN, MEREND, MEMO1, MEMO2, MEMO3, DATELASTMAINT
+    </sql>
+
+</mapper>

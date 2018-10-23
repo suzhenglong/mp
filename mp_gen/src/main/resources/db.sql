@@ -1,0 +1,10 @@
+INSERT INTO `mp`.`tbl_employee`(`id`, `last_name`, `email`, `gender`, `age`) VALUES (1, 'Tom', 'tom@atguigu.com', '1', 22);
+INSERT INTO `mp`.`tbl_employee`(`id`, `last_name`, `email`, `gender`, `age`) VALUES (2, 'Jerry', 'jerry@atguigu.com', '0', 25);
+INSERT INTO `mp`.`tbl_employee`(`id`, `last_name`, `email`, `gender`, `age`) VALUES (3, 'Black', 'black@atguigu.com', '1', 30);
+INSERT INTO `mp`.`tbl_employee`(`id`, `last_name`, `email`, `gender`, `age`) VALUES (4, 'White', 'white@atguigu.com', '0', 35);
+INSERT INTO `mp`.`tbl_employee`(`id`, `last_name`, `email`, `gender`, `age`) VALUES (5, 'Tom', 'MEIFENG@163.COM', '1', 22);
+INSERT INTO `mp`.`tbl_employee`(`id`, `last_name`, `email`, `gender`, `age`) VALUES (7, 'MP1', 'mp1@atguigu.com', '1', 22);
+INSERT INTO `mp`.`tbl_employee`(`id`, `last_name`, `email`, `gender`, `age`) VALUES (10, '苍老师', 'cls@sina.com', '0', 44);
+INSERT INTO `mp`.`tbl_employee`(`id`, `last_name`, `email`, `gender`, `age`) VALUES (12, '小泽老师', 'xz@sina.com', '1', 44);
+INSERT INTO `mp`.`tbl_employee`(`id`, `last_name`, `email`, `gender`, `age`) VALUES (17, '宋老湿', 'sls@atguigu.com', '1', 36);
+INSERT INTO `mp`.`tbl_employee`(`id`, `last_name`, `email`, `gender`, `age`) VALUES (18, '宋老师', 'sls@atguigu.com', '1', 35);

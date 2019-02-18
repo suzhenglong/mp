@@ -8,14 +8,14 @@ import com.baomidou.mybatisplus.generator.config.PackageConfig;
 import com.baomidou.mybatisplus.generator.config.StrategyConfig;
 import com.baomidou.mybatisplus.generator.config.rules.DbType;
 import com.baomidou.mybatisplus.generator.config.rules.NamingStrategy;
-import com.csii.mp.oracle.beans.Emp;
-import com.csii.mp.oracle.beans.Mer;
-import com.csii.mp.oracle.beans.Merctrl;
-import com.csii.mp.oracle.beans.User;
-import com.csii.mp.oracle.mapper.EmpMapper;
-import com.csii.mp.oracle.mapper.MerMapper;
-import com.csii.mp.oracle.mapper.MerctrlMapper;
-import com.csii.mp.oracle.mapper.UserMapper;
+import com.suzl.mp.oracle.beans.Emp;
+import com.suzl.mp.oracle.beans.Mer;
+import com.suzl.mp.oracle.beans.Merctrl;
+import com.suzl.mp.oracle.beans.User;
+import com.suzl.mp.oracle.mapper.EmpMapper;
+import com.suzl.mp.oracle.mapper.MerMapper;
+import com.suzl.mp.oracle.mapper.MerctrlMapper;
+import com.suzl.mp.oracle.mapper.UserMapper;
 import org.junit.Test;
 import org.springframework.context.ApplicationContext;
 import org.springframework.context.support.ClassPathXmlApplicationContext;
@@ -147,7 +147,7 @@ public class TestMPOracle {
 
         //4. 包名策略配置
         PackageConfig pkConfig = new PackageConfig();
-        pkConfig.setParent("com.csii.mp.oracle")
+        pkConfig.setParent("com.suzl.mp.oracle")
                 .setMapper("mapper")
                 .setService("service")
                 .setController("controller")

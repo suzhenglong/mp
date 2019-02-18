@@ -36,7 +36,7 @@
         <property name="dataSource" ref="dataSource"></property>
         <property name="configLocation" value="classpath:mybatis-config.xml"></property>
         <!-- 别名处理 -->
-        <property name="typeAliasesPackage" value="com.csii.mp.gen.beans"></property>
+        <property name="typeAliasesPackage" value="com.suzl.mp.gen.beans"></property>
 
         <!-- 注入全局MP策略配置 -->
         <property name="globalConfig" ref="globalConfiguration"></property>
@@ -116,18 +116,18 @@
     </bean>
 
     <!-- 定义自定义注入器 -->
-    <bean id="mySqlInjector" class="com.csii.mp.auto.injector.MySqlInjector"></bean>
+    <bean id="mySqlInjector" class="com.suzl.mp.auto.injector.MySqlInjector"></bean>
 
     <!-- 逻辑删除 -->
     <bean id="logicSqlInjector" class="com.baomidou.mybatisplus.mapper.LogicSqlInjector"></bean>
 
     <!-- 公共字段填充 处理器 -->
-    <bean id="myMetaObjectHandler" class="com.csii.mp.auto.metaObjectHandler.MyMetaObjectHandler"></bean>
+    <bean id="myMetaObjectHandler" class="com.suzl.mp.auto.metaObjectHandler.MyMetaObjectHandler"></bean>
 
     <!--
         配置mybatis 扫描mapper接口的路径
      -->
     <bean class="org.mybatis.spring.mapper.MapperScannerConfigurer">
-        <property name="basePackage" value="com.csii.mp.auto.mapper"></property>
+        <property name="basePackage" value="com.suzl.mp.auto.mapper"></property>
     </bean>
 </beans>
